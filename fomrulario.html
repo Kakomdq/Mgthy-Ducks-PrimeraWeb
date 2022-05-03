@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Tarea/img/Ice_Hockey_2-on-1_One-Timer.gif" type="image/x-icon">
+    <title>Hockey League</title>
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="contenedor-header">
+            <div class="banner">
+                <div class="navegador">
+                    <nav>
+                        <a href="./index.html">Home</a>
+                        <a href="./about.html">About MDHL</a>
+                        <a href="./contact.html">Contact</a>
+                        <a href="./game-info.html">Games</a>
+                        <a href="./rules.html">Rules</a>
+                        <a href="./fomrulario.html">Formulario</a>
+                    </nav>
+                </div>
+                <h1>Mighty Ducks <span>Hockey League</span></h1>
+                <div class="logo">
+                    <img src="./Tarea/img/Logo_Mighty_ducks-01.png" alt="logo">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="cuerpo1">
+        <div class="formulario">
+            <form action="./show_data.html" method="get">
+                <h4>Registration Form</h4>
+                <fieldset class="datos">
+                    <div class="datos-form">
+                        <label>Player´s First Name:  
+                        <input type="text" id="fname" name="fname" />
+                        </label>
+
+                        <label>Last Name: 
+                            <input type="text" name="lname" id="lname">
+                        </label>
+                    </div>
+                    <div class="datos-form">
+                        <label>Street Name: 
+                        <input type="text" name="adress" id="adress">
+                        </label>
+                    </div>
+                    <div class="datos-form">
+
+                        <label>City: 
+                            <input type="text" name="city" id="city">
+                            </label>
+
+                        <label>Zip Code: 
+                            <input type="text" name="zcode" id="zcode">
+                            </label>
+
+                    </div>
+                    <div class="datos-form">
+
+                        <label>Birth Date:
+                        <input type="date" name="bdate" id="bdate">
+                        </label>
+                        <div>
+                            <label>Gender:</label>
+                            <input type="radio" name="gender" id="female" value="female" checked/>
+
+                            <label>Female</label>
+                            <input type="radio" name="gender" id="male" value="male" checked/>
+                            <label>Male</label>
+                        </div>
+                    </div>
+                    <div>
+                        <label>Grade::</label>
+                        <input type="radio" name="grade" id="preschool" value="preschool" checked/>
+                        <label>Pre-School</label>
+                        <input type="radio" name="grade" id="1st" value="1st" checked/>
+                        <label>1st</label>
+                        <input type="radio" name="grade" id="2nd" value="2nd" checked/>
+                        <label>2nd</label>
+                        <input type="radio" name="grade" id="3rd" value="3rd" checked/>
+                        <label>3rd</label>
+                        <input type="radio" name="grade" id="4th" value="4th" checked/>
+                        <label>4th</label>
+                        <input type="radio" name="grade" id="5th" value="5th" checked/>
+                        <label>5th</label>
+                    </div>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Wch elementary School do you live near?</legend>
+                    <label>Closset School:</label>
+                    <div class="escuelas">
+                        <div>
+                            <input type="radio" name="elementary" id="ajkatzenmaier" value="ajkatzenmaier" checked/>
+                            <label>AJ Katzenmaier</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="elementary" id="greenbay" value="greenbay" checked/>
+                            <label>Greenbay</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="elementary" id="howardayaeger" value="howardayaeger" checked/>
+                            <label>Howard A Yaeger</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="elementary" id="marjoriephart" value="marjoriephart" checked/>
+                            <label>Marjorie P Hart</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="elementary" id="northelemntary" value="northelemntary" checked/>
+                            <label>North Elemntary</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="elementary" id="southelemntary" value="southelemntary" checked/>
+                            <label>South Elemntary</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>What position(s) do yo normally play? (Check all that apply)</legend>
+                    <div class="posiciones">
+                        <div>
+                            <input type="checkbox" name="position" id="forward" value="forward" checked/>
+                            <label>Forward</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="position" id="midfield" value="midfield" checked/>
+                            <label>Midfield</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="position" id="defense" value="defense" checked/>
+                            <label>Defense</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="position" id="goalkeaper" value="goalkeaper" checked/>
+                            <label>Goalkeaper</label>
+                        </div>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Uniform Size</legend>
+                    <div class="talles">
+                        <div>
+                            <input type="radio" name="uniform" id="ysmall" value="ysmall" checked/>
+                            <label>Youth Small</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="uniform" id="ymedium" value="ymedium" checked/>
+                            <label>Youth Medium</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="uniform" id="ylarge" value="ylarge" checked/>
+                            <label>Youth Large</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="uniform" id="small" value="small" checked/>
+                            <label>Small</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="uniform" id="medium" value="medium" checked/>
+                            <label>Medium</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="uniform" id="large" value="large" checked/>
+                            <label>Large</label>
+                        </div>
+                        <div>
+                            <input type="radio" name="uniform" id="elarge" value="elarge" checked/>
+                            <label>Extra-Large</label>
+                        </div>
+                    </div>
+
+                </fieldset>
+                <fieldset>
+                    <legend>Permission to Play</legend>
+                    <div class="conformidad">
+
+                        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with hockey and
+                            in consideration for the “League" accepting the registrant for its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers,including
+                            the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the programand/orbeing transported to or from MDHL sponsored activities,which
+                            transportation By signing below, I herebyagree andauthorizethe above.In addition, by signing below, lalso acknowledge that I have read the cancellation policy and agree to its terms.</p>
+                        <div>
+                            <label for="nombre">Parent/Guardian Complete Name</label>
+                            <input type="text" id="nombre" name="nombre" />
+                        </div>
+                        <div>
+                            <label for="fecha">Signature Date</label>
+                            <input type="text" id="fecha" name="fecha" placeholder="April 28, 2022">
+                        </div>
+                    </div>
+                </fieldset>
+                <input type="submit" name="submit" id="enviar">
+            </form>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <h4>Ⓒ All Rights Reserve</h4>
+    </footer>
+</body>
+
+</html>

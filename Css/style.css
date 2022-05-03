@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(../Tarea/img/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 60% 20%;
+}
+
+
+/* Header */
+
+.contenedor-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+h1 span {
+    color: black;
+}
+
+header h1 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.banner {
+    background-image: url(../Tarea/img/hockey2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 50vh;
+    width: 100%;
+    font-size: 30px;
+    color: rgb(5, 135, 139);
+    font-family: fantasy;
+    border-radius: 15%;
+    margin-bottom: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16rem;
+}
+
+.logo img {
+    width: 9vw;
+}
+
+
+/* Navegador */
+
+.navegador {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5rem;
+}
+
+.navegador a:hover {
+    background-color: rgba(0, 0, 0, 0.519);
+    box-shadow: .5rem .5rem rgb(88, 197, 201);
+}
+
+.navegador a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(88, 197, 201);
+    padding: 3px;
+}
+
+
+/* Cuerpo */
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../Tarea/img/Cancha.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 50vw;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+
+.cuerpo h2 {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: rgb(59, 147, 150);
+}
+
+.fechas {
+    margin-left: 4rem;
+}
+
+.fechas dt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.fechas dd {
+    text-decoration: underline;
+    text-decoration-color: black;
+    font-weight: 300;
+    color: rgb(21, 159, 164);
+    font-size: 1.5rem;
+}
+
+
+/* About */
+
+.about {
+    margin-top: 2rem;
+}
+
+.about h3 {
+    color: rgb(59, 147, 150);
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+}
+
+.about p {
+    text-align: center;
+    margin-top: 0;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about p:hover {
+    background-color: rgba(59, 147, 150, 0.375);
+}
+
+
+/* Correo */
+
+.correo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.correo a:hover {
+    background-color: rgba(59, 147, 150, 0.375);
+}
+
+.fondo-correo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../Tarea/img/Ice_Hockey_2-on-1_One-Timer.gif);
+    background-size: cover;
+    height: 80vh;
+    width: 50vw;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+
+
+/* Rules */
+
+.rules {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: 1rem;
+}
+
+.rules h2 {
+    text-align: center;
+    color: rgb(59, 147, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    margin: 1rem 0;
+}
+
+.rules h3 {
+    color: rgb(105, 233, 238);
+    margin-left: 2rem;
+}
+
+.rules p {
+    color: rgb(226, 153, 45);
+    margin-left: 1rem;
+    width: 40vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.listas-fondo {
+    background-image: url(../Tarea/img/Ice_Hockey_Neutral_Zone_Trap.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.listas-fondo h3 {
+    color: rgb(1, 1, 1);
+}
+
+.listas-fondo li:hover {
+    background-color: rgba(0, 0, 0, 0.519);
+}
+
+.lista1 {
+    color: rgb(226, 153, 45);
+    width: 40vw;
+}
+
+.lista1 li {
+    margin: 1rem;
+    margin-left: 5rem;
+}
+
+.lista1 span {
+    color: rgb(1, 1, 1);
+}
+
+.lista2 li {
+    list-style-type: lower-latin;
+    margin-left: 5rem;
+}
+
+.lista3 {
+    color: rgb(226, 153, 45);
+    width: 40vw;
+    margin-left: 1rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.lista3 dd {
+    margin-left: 1rem;
+    margin-top: .5rem;
+}
+
+.lista3 dt:hover {
+    background-color: rgba(0, 0, 0, 0.519);
+}
+
+.lista3 dd:hover {
+    background-color: rgba(0, 0, 0, 0.519);
+}
+
+
+/* Tabla */
+
+.titulo-tabla {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-tabla h2 {
+    text-decoration: underline;
+    text-decoration-color: black;
+    text-align: center;
+    color: rgb(59, 147, 150);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+}
+
+.tabla {
+    background-image: url(../Tarea/img/Cancha.jpg);
+    background-size: cover;
+    height: 80vh;
+    width: 50vw;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+
+table {
+    width: 40vw;
+    margin-left: 5rem;
+}
+
+caption {
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+thead {
+    text-align: left;
+}
+
+.fecha {
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: rgba(59, 147, 150, 0.375);
+}
+
+.bajo-tabla {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1rem;
+}
+
+.bajo-tabla p {
+    margin: 1rem;
+}
+
+.bajo-tabla span {
+    font-style: italic;
+    font-weight: 800;
+}
+
+.mail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bajo-tabla p:hover {
+    background-color: rgba(59, 147, 150, 0.375);
+}
+
+tbody a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Mapas */
+
+.mapas {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.mapas iframe {
+    border-radius: 10%;
+    margin: 1rem;
+}
+
+.mapas h4 {
+    color: rgb(21, 159, 164);
+    text-align: center;
+    margin: .5rem;
+}
+
+.mapas div:hover {
+    background-color: rgba(0, 0, 0, 0.519);
+}
+
+
+/* Formulario */
+
+.cuerpo1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../Tarea/img/Cancha.jpg);
+    background-size: cover;
+    height: 130vh;
+    width: 65vw;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-left: .5rem;
+}
+
+form {
+    margin-left: 1.5rem;
+    height: 100%;
+}
+
+form fieldset {
+    border: none;
+}
+
+.formulario {
+    width: 90%;
+}
+
+.formulario h4 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    margin: .5rem 0;
+}
+
+.datos-form {
+    display: flex;
+    justify-content: space-around;
+    justify-content: left;
+    margin: .2rem;
+}
+
+.datos-form>label {
+    display: flex;
+    width: 50%;
+    white-space: nowrap;
+}
+
+.datos-form input {
+    flex-grow: 1;
+    background: none;
+    border-style: none;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.escuelas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 15vh;
+}
+
+.escuelas div {
+    margin: .3rem;
+}
+
+.posiciones {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 10vh;
+}
+
+.posiciones div {
+    margin: .3rem;
+}
+
+.talles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 20vh;
+}
+
+.talles div {
+    margin: .3rem;
+}
+
+form>input {
+    margin: .5rem 20rem;
+    padding: .3rem;
+    background-color: rgb(21, 159, 164);
+}
+
+.conformidad {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.conformidad div {
+    margin: .3rem;
+}
+
+.conformidad input {
+    background: none;
+    border-style: none;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    width: 100%;
+}
+
+.footer h4 {
+    color: rgb(21, 159, 164);
+}
+
+
+/* Formulario REspuesta */
+
+h1 {
+    color: rgb(22, 117, 121);
+    margin-bottom: 2rem;
+}
+
+.formulario-completo {
+    background: url(../Tarea/img/Cancha.jpg);
+    border: none;
+    padding: .5rem;
+}
